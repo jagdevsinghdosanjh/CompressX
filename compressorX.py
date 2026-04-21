@@ -3,7 +3,9 @@ import subprocess
 import pikepdf
 import tempfile
 import shutil
+import streamlit as st
 
+st.write("App loaded successfully.")
 
 # -----------------------------
 # Ghostscript (Linux-compatible)
