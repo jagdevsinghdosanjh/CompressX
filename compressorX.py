@@ -5,6 +5,20 @@ import tempfile
 import shutil
 import streamlit as st
 
+# ----------Page Config-----------
+st.set_page_config(page_title="CompressC - Bulk PDF Compressor <7MB", layout="wide")
+
+# --------------Dark Mode ---------------
+dark_mode=st.sidebar.toggle("Dark Mode", value=False)
+if dark_mode:
+    st.markdown(
+    """<style>
+    body { bakground-color:black; color:yellow;}
+    .stApp {background-color:black;}
+    """,
+    unsafe_allow_html=True
+    )
+    
 st.write("App loaded successfully.")
 
 # -----------------------------
