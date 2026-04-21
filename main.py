@@ -1,4 +1,4 @@
-import os
+import os #noqa
 import pandas as pd
 import streamlit as st
 import time
