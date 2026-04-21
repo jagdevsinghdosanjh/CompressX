@@ -1,0 +1,91 @@
+# -------------------------
+# Python & Virtual Env
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+*.tmp
+*.temp
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# -------------------------
+# Streamlit Cache
+# -------------------------
+.streamlit/
+**/.streamlit/
+**/.cache/
+.cache/
+**/__pycache__/
+
+# -------------------------
+# OS Junk Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# IDE / Editor Files
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# Build Artifacts (EXE, dist)
+# -------------------------
+dist/
+build/
+*.spec
+*.exe
+*.msi
+
+# -------------------------
+# PDF Compression App Outputs
+# -------------------------
+input_*.pdf
+compressed_*.pdf
+compressed_pdfs.zip
+*.zip
+
+# -------------------------
+# Temporary Uploads & Outputs
+# -------------------------
+uploads/
+output/
+temp/
+tmp/
+*.bak
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+
+# -------------------------
+# CSV Reports
+# -------------------------
+compressx_report.csv
+
+# -------------------------
+# Secrets / Keys (if added later)
+# -------------------------
+*.key
+*.pem
+*.crt
+secrets.json
+
+# -------------------------
+# Ignore EXE unless you want to publish it
+# -------------------------
+CompressX_Setup.exe
