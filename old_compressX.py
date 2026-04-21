@@ -3,7 +3,7 @@ import os
 import zipfile
 import time
 import pandas as pd
-from compressor import compress_to_target
+from compressorl import compress_to_target
 
 # ---------- Page config ----------
 st.set_page_config(page_title="CompressX – Bulk PDF Compressor <7MB", layout="centered")
